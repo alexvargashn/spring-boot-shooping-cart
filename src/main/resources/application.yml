@@ -1,0 +1,16 @@
+server: 
+port  : 8080
+
+spring:
+  application:
+    name: shoppingcart
+  main:
+    allow-bean-definition-overriding: true
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: full
