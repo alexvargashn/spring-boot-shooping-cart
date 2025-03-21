@@ -1,5 +1,7 @@
 package com.shoppingcart.application.dto;
-
+/**
+ * This package contains Data Transfer Objects (DTOs) used in the Shopping Cart application.
+ */
 public class JwtResponse {
 
     private String token;
